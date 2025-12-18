@@ -5,9 +5,9 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View>
-        <Text>Hello World!</Text>
+        <Text style={{ margin: 16, borderWidth: 2, borderColor: 'red', padding: 16 }}>Hello World!!!</Text>
       </View>
-      <Text>Another text</Text>
+      <Text style={{ margin: 16, borderWidth: 2, borderColor: 'red', padding: 16 }}>Another text</Text>
       <Button title='Tap me!' />
     </View>
   );
