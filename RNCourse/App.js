@@ -40,7 +40,7 @@ export default function App() {
           data={courseGoal}
           renderItem={(itemData) => {
             // { console.log(itemData); }
-            return <GoalItem />;
+            return <GoalItem text={itemData.item.text} />;
           }}
           keyExtractor={(item, index) => {
             // { console.log(item); }
